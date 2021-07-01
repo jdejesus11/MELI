@@ -6,8 +6,8 @@
   "scripts": {
     "start:dev": "cross-env webpack serve --open --config=webpack.config.dev.js --port 3000 ",
     "build": "webpack --mode production --config=webpack.config.prod.js",
-    "test": "jest --watchAll",
-    "test:coverage": "jest --coverage"
+    "test": "",
+    "test:coverage": ""
   },
   "author": "JUAN CARLOS DE JESUS MIRELLES",
   "license": "ISC",
