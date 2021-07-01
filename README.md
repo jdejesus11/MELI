@@ -24,16 +24,16 @@ There are no testing or automated test. (By the time this app was built, I hadn'
    * Containers: keeps all "high level" components which contain other components
    * Components: basic or small components. Are the main core for others components
    * Services: contains code to retrieve remote data using http. Axios is the main library.
-   * Routes: contains code for routing to components. React Router is the library in charge of routing.
-   * Helpers: generic and reusable codes. i.e functions to manipulate decimals.
+   * Routes:  code for routing. React Router is the library in charge of routing.
+   * Helpers: generic and reusable code. i.e functions to manipulate decimals.
    * Styles: global styles.
    * Constants: static values
 
 2. MiTiendaVirtualAPI:
    * Controllers: responsible for businnes logic.
-   * Routes: contains code which are linked to a given URL.
-   * Utilities: generic and reusable codes. i.e functions to manipulate decimals.
-   * Services: contains code to retrieve remote data using http. Axios is the main library.
+   * Routes: code which are linked to a given URL.
+   * Utilities: generic and reusable code. i.e functions to manipulate decimals.
+   * Services: code to retrieve remote data using http. Axios is the main library.
    * server.js: application ENTRY POINT.
 
 
