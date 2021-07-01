@@ -8,11 +8,11 @@ This repopsitory contains two folder:
 2. MiTiendaVirtualAPI (Restful Api / Express Node.j APP)
 
 ## Installation and configuration:
-1. npm i (in order to install all the dependencies). should be applied inside each given folder (MyShopApp, MiTiendaVirtualAPI)
+1. npm i (in order to install all the dependencies). should be applied inside each given folder (MiTiendaVirtual, MiTiendaVirtualAPI)
 2. MiTiendaVirtual: usually runs on port 8080. 
-   #NPM RUN START:DEV
+#  NPM RUN START:DEV
 3. MiTiendaVirtualAPI: All services by default are configured to localhost:8080. 
-   #NPM START.
+#  NPM START.
 
 ## Considerations:
 MiTiendaVirtual and MiTiendaVirtualAPI were built and configured manually using webpack and babel (not using react-scripts, etc)
