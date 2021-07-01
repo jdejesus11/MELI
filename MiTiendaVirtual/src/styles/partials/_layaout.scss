@@ -1,0 +1,43 @@
+.flex{
+    display: flex;
+
+    &-row{
+        flex-direction: row;
+    }
+
+    &-column{
+        flex-direction: column;
+    }
+
+    &-expand{
+        flex: 1 1;
+    }
+
+    &-no-shrink{
+        flex-shrink: 0;
+    }
+
+    &-horizontal-center{
+        align-items: center;
+    }
+
+    &-vertical-center{
+        justify-content: center;
+    }
+
+    &-no-wrap{
+        flex-wrap: nowrap;
+    }
+
+    &-wrap{
+        flex-wrap: wrap;
+    }
+
+    &-self-center{
+        align-self: center;
+    }
+
+    &-self-start{
+        align-self: flex-start;
+    }
+}

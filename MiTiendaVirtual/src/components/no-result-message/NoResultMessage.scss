@@ -1,0 +1,29 @@
+.message-body{
+    width: 100%;
+}
+
+.message-grid{
+    display: grid;
+    grid-template-rows: minmax(64px,1fr);
+    row-gap: 40px;
+}
+
+.message-title{
+    font-size: 1.2rem;
+    display: block;
+    margin-bottom: 1rem;
+    flex-grow: 0;
+}
+
+.message-suggestions{
+    flex: 1 1;
+}
+
+.message-suggestions__suggestion:not(:last-child){
+    margin-bottom: .8rem;
+}
+
+
+.message__text-center{
+    text-align: center;
+}

@@ -1,0 +1,23 @@
+.categories-container {
+  margin: .7rem 0rem;
+}
+
+.category {
+  font-size: .8rem;
+  color: #666;
+  margin: .4rem 0rem;
+  padding-right: .4rem;
+  padding-left: .4rem;
+  cursor: pointer;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.category:hover {
+  color: #c7c6c6;
+}
+
+.category:not(:last-child) {
+  border-right: #a8a9aa solid 1px;
+}
+/*# sourceMappingURL=BreadCrumb.css.map */

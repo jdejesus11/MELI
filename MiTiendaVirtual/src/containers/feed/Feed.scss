@@ -1,0 +1,23 @@
+@import 'src/styles/partials/variables';
+
+.feed-body{
+    background-color:transparent;
+}
+
+.feed-body__routes{
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+}
+
+.feed-header{
+    background-color: $main-color;
+}
+
+.feed-footer{
+    background-color: $main-white;
+    padding: .3rem .5rem;
+}
+
+.feed-footer_text{
+    font-size: .7rem;
+}

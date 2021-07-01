@@ -1,0 +1,37 @@
+
+/************************************************************************
+DESCRIPTION: THIS PARTIAL CLEANS DEFAULT STYLES ADDED BY 
+             BROWSER'S USER AGENT.
+*************************************************************************/
+
+:root, body, #root, div, main, header, nav, section, aside, article, ul, ol, p {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+   font-weight:normal;
+   margin:0;
+}
+
+h1,h2,h3,h4,h5,h6,a,p,span{
+   font-size: 1rem;
+}
+
+a {
+   text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+input,button{
+   border: none;
+}
+
+textarea:focus, 
+input:focus{
+   outline: none;
+}
